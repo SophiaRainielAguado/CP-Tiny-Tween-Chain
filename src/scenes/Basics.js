@@ -90,11 +90,6 @@ class Basics extends Phaser.Scene {
             pearTweenChain.restart()
         })
 
-        //CODE CHALLENGE
-        // ADD TWEENS TO ROTATE THE PEAR's ANGLE AT EACH CORNER by 90 degrees
-        // RESET THE PEAR TO ITS STARTING ANGLE IF THE PLAYER CLICKS THE MOUSE
-        // HINT: Game objects have an angle property and a setAngle() method
-
         // enable scene reload key
         this.reload = this.input.keyboard.addKey('R')
 
